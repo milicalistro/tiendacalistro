@@ -4,38 +4,55 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inicial-scale=1">
     <title>Fashion Girls</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     </head>
-    <body>
-    
-        <div id="titulo"><a href=""><h1>Fashion Girls</h1></a></div>
-    <nav>
-       <ul class="vinculos">     
-        <li class="lista"><a href="#titulo"><h2>Home</h2></a></li>
-        <li class="lista"><a href="./html/productos.html"><h2>Productos</h2></a></li>
-        <li class="lista"><a href="./html/contacto.html"><h2>Contacto<h2></a></li>
-        <li class="lista"><a href="./html/store.html"><h2>Store</h2></a></li>
-        <li class="lista"><a href="./html/new-in.html"><h2>New In</h2></a></li>
-    </ul>
-    </nav>
+    <body class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <div id="titulo"><a href=""><h1>Fashion Girls</h1></a></div>
+        </div>
+        <div class="col-6">
+          <nav>
+            <ul class="vinculos">     
+              <li class="lista"><a href="#titulo"><h2>Home</h2></a></li>
+              <li class="lista"><a href="./html/productos.html"><h2>Productos</h2></a></li>
+              <li class="lista"><a href="./html/contacto.html"><h2>Contacto<h2></a></li>
+              <li class="lista"><a href="./html/store.html"><h2>Store</h2></a></li>
+              <li class="lista"><a href="./html/new-in.html"><h2>New In</h2></a></li>
+          </ul>
+          </nav>
+        </div>
+      </div>
         <section>
-            <div class="image">
-              <img src="imagenes/imagen 111.jpeg">
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <div class="image">
+                <img src="imagenes/imagen 111.jpeg">
+              </div>
             </div>
-          <div class="image">
-            <img src="imagenes/imagen 1.jpeg">
-          </div>
-          <div class="image">
-            <img src="imagenes/imagen 12.jpeg">
+            <div class="col-4">
+              <div class="image">
+                <img src="imagenes/imagen 1.jpeg">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="image">
+                <img src="imagenes/imagen 12.jpeg">
+              </div>
+            </div>
           </div>
           </section>
         <footer>
-            <h3>Av.Donato Alvarez 7952</h3>
-            <h3>Whatsapp:+54 9 3516 24-7975</h3>
-            <h3>EMAIL:fashiongirl@gmail.com</h3>
+            <div class="row">
+              <h3>Av.Donato Alvarez 7952</h3>
+              <h3>Whatsapp:+54 9 3516 24-7975</h3>
+              <h3>EMAIL:fashiongirl@gmail.com</h3>
+            </div>
         </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
