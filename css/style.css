@@ -12,6 +12,9 @@ h1{
 }
 h2{
     color: rgb(214, 204, 224);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -93,6 +96,9 @@ h3{
   font-size: 10px; 
   color: #fff;
 }
+section{
+  height: 100%;
+}
 }
 @media screen and (max-width:1024px )
 {
@@ -104,10 +110,14 @@ h3{
 h2{ 
     font-size: 15px;
     
+    
 }
 h3{
   padding: 10px;
   font-size: 20px; 
   color: #fff;
+}
+section{
+  height: 100%;
 }
 }
